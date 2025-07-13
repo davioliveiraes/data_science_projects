@@ -1,0 +1,15 @@
+# PyVectorSpace - Sistema de Recomendação
+# === CORE DEPENDENCIES ===
+numpy>=1.21.0
+pandas>=1.3.0
+nltk>=3.6.0
+scikit-learn>=1.0.0
+
+# === DEVELOPMENT ===
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# === FUTURE ENHANCEMENTS ===
+# matplotlib>=3.4.0      # Uncomment for visualizations
+# seaborn>=0.11.0         # Uncomment for statistical plots
+# plotly>=5.0.0           # Uncomment for interactive plots
