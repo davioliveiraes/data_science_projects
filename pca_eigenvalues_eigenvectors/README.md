@@ -29,11 +29,16 @@ Demonstrar na prática como PCA funciona através de:
 ### 1. Preparar Ambiente
 ```bash
 # Criar ambiente conda
-conda create -n pca-eigenvalues python=3.9
-conda activate pca-eigenvalues
 
-# Instalar dependências
-pip install numpy pandas scikit-learn ipython
+git clone https://github.com/davioliveiraes/data_science_projects.git
+cd data_science_projects/pca_eigenvalues_eigenvectors
+
+conda create -n pca_eigenvalues_eigenvectors python=3.12 -y
+
+conda activate pca_eigenvalues_eigenvectors
+
+pip install -r requirements.txt
+
 ```
 
 ### 2. Executar o Código
