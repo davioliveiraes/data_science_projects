@@ -33,7 +33,7 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 # macOS: Baixe o instalador em https://www.anaconda.com/download
 ```
 
-### 3. Clone o repositório
+### 3. Criar e ativar ambiente conda
 ```bash
 # Criar ambiente
 conda create -n deep_learning_matrices python=3.12 -y
