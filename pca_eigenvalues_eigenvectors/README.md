@@ -26,22 +26,37 @@ Demonstrar na prática como PCA funciona através de:
 
 ## 🚀 Como Executar
 
-### 1. Preparar Ambiente
+### 1. Clone o repositório
 ```bash
-# Criar ambiente conda
-
 git clone https://github.com/davioliveiraes/data_science_projects.git
 cd data_science_projects/pca_eigenvalues_eigenvectors
-
-conda create -n pca_eigenvalues_eigenvectors python=3.12 -y
-
-conda activate pca_eigenvalues_eigenvectors
-
-pip install -r requirements.txt
-
 ```
 
-### 2. Executar o Código
+### 2. Instalar Anaconda (Se não tiver instalado)
+```bash
+# Linux/WSL
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+bash Anaconda3-2023.09-0-Linux-x86_64.sh
+
+# Windows: Baixe o instalador em https://www.anaconda.com/download
+# macOS: Baixe o instalador em https://www.anaconda.com/download
+```
+
+### 3. Criar e ativar ambiente conda
+```bash
+# Criar ambiente
+conda create -n pca_eigenvalues_eigenvectors python=3.12 -y
+
+# Ativar ambiente
+conda activate pca_eigenvalues_eigenvectors
+```
+
+### 4. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Executar o Código
 ```python
 import numpy as np
 import pandas as pd
@@ -89,7 +104,7 @@ X_pca = pca.fit_transform(dsa_matrix)
 ```
 ├── dataset.csv          # Dados dos 40 alunos
 ├── img/                 # Imagens explicativas do PCA
-├── pca_analysis.py      # Implementações do algoritmo
+├── pca_eigenvalues_eigenvectors.py      # Implementações do algoritmo
 └── README.md
 ```
 
