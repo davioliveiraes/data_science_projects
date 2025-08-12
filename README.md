@@ -87,7 +87,3 @@ Se este repositório foi útil para você, considere dar uma estrela!
 - [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
 - [Kaggle Learn](https://www.kaggle.com/learn)
 - [Towards Data Science](https://towardsdatascience.com/)
-
----
-
-*Última atualização: $(date)*
