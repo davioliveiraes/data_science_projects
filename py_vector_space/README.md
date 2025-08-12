@@ -21,20 +21,37 @@ Construir um sistema de recomendação completo que utiliza:
 
 ## 🚀 Como Executar
 
-1. **Clone o repositório, ative o ambiente e instale às dependências:**
+### 1. Clone o repositório
 ```bash
 git clone https://github.com/davioliveiraes/data_science_projects.git
 cd data_science_projects/py_vector_space
-
-conda create -n py_vector_space python=3.12 -y
-
-conda activate py_vector_space
-
-pip install -r requirements.txt
-
 ```
 
-2. **Execute o notebook/script:**
+### 2. Instalar Anaconda (Se não tiver instalado)
+```bash
+# Linux/WSL
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+bash Anaconda3-2023.09-0-Linux-x86_64.sh
+
+# Windows: Baixe o instalador em https://www.anaconda.com/download
+# macOS: Baixe o instalador em https://www.anaconda.com/download
+```
+
+### 3. Criar e ativar ambiente conda
+```bash
+# Criar ambiente
+conda create -n py_vector_space python=3.12 -y
+
+# Ativar ambiente
+conda activate py_vector_space
+```
+
+### 4. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+**Execute o notebook/script:**
 ```python
 # Carregar dados
 df_dsa_filmes = pd.read_csv("dados/dataset_filmes.csv")
