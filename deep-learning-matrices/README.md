@@ -23,17 +23,36 @@ git clone https://github.com/davioliveiraes/data_science_projects.git
 cd data_science_projects/deep-learning-matrices
 ```
 
-### 2. Instale as dependências
+### 2. Instalar Anaconda (Se não tiver instalado)
+```bash
+# Linux/WSL
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+bash Anaconda3-2023.09-0-Linux-x86_64.sh
+
+# Windows: Baixe o instalador em https://www.anaconda.com/download
+# macOS: Baixe o instalador em https://www.anaconda.com/download
+```
+
+### 3. Clone o repositório
+```bash
+# Criar ambiente
+conda create -n deep_learning_matrices python=3.12 -y
+
+# Ativar ambiente
+conda activate deep_learning_matrices
+```
+
+### 4. Instale as dependências
 ```bash
 pip install numpy jupyter
 ```
 
-### 3. Execute o notebook
+### 5. Execute o notebook
 ```bash
-jupyter notebook main.ipynb
+jupyter notebook deep_learning_matrices.ipynb
 ```
 
-### 4. Execute as células em ordem
+### 6. Execute as células em ordem
 O notebook está dividido em 5 partes:
 1. **Algoritmo** - Classe da rede neural
 2. **Dados** - Preparação dos dados de treino/teste
