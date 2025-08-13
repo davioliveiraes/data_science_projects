@@ -17,28 +17,6 @@ Este repositório contém uma coleção de projetos práticos e exercícios que 
 - **TensorFlow/Keras** - Deep Learning
 - **Plotly** - Visualizações interativas
 
-## 📁 Estrutura do Repositório
-
-```
-data_science_projects/
-├── projeto_01/
-│   ├── data/
-│   ├── notebooks/
-│   ├── src/
-│   └── README.md
-├── projeto_02/
-│   ├── data/
-│   ├── notebooks/
-│   ├── src/
-│   └── README.md
-└── exercicios/
-    ├── exploratory_data_analysis/
-    ├── machine_learning/
-    └── deep_learning/
-```
-
-## 🚀 Projetos Desenvolvidos
-
 ### 📈 Análise Exploratória de Dados
 Projetos focados em técnicas de EDA, visualização de dados e insights estatísticos.
 
