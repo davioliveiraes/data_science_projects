@@ -47,18 +47,6 @@ Além dos projetos principais, o repositório contém exercícios práticos orga
 - Criar visualizações informativas e insights acionáveis
 - Praticar boas práticas de desenvolvimento em ciência de dados
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Se você tem sugestões de melhorias, correções ou novos projetos:
-
-1. Fork o repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-Se este repositório foi útil para você, considere dar uma estrela!
-
 ## 🔗 Links Úteis
 
 - [Documentação do Pandas](https://pandas.pydata.org/docs/)
