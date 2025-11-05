@@ -23,8 +23,8 @@ Todos os processos são **Functions PL/pgSQL parametrizáveis** para controle de
 ### 1. Configurar Ambiente
 ```bash
 # Clone o repositório
-git clone <seu-repo>
-cd ecommerce-analytics-model
+git clone https://github.com/davioliveiraes/data_science_projects.git
+cd cases_studies_business_analytics_machine_learning/ecommerce_analytics_model
 
 # Configure as variáveis
 cp .env.example .env
