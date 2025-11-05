@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:${POSTGRES_VERSION:-16.1}
+    container_name: ${CONTAINER_NAME:-my_ecommerce_db}
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ecommerce_db}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mypassword123}
+    volumes:
+      - ${DB_VOLUME:-ecommerce_data}:/var/lib/postgresql/data
+      - ./sql-scripts:/docker-entrypoint-initdb.d:ro  # Scripts SQL executados na criação
+    networks:
+      - ecommerce_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ecommerce_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  ecommerce_data:
+    driver: local
+
+networks:
+  ecommerce_network:
+    driver: bridge
