@@ -1,0 +1,64 @@
+# BANCO DE DADOS DUCKDB (ARQUIVOS GRANDES)
+*.duckdb
+*.duckdb.wal
+data/*.duckdb
+data/*.duckdb.wal
+
+# ARQUIVOS GEOESPACIAIS GERADOS (OUTPUTS)
+*.fgb
+*.fdp
+*.geojson
+outputs/*.fgb
+outputs/*.geojson
+data/*.geojson
+
+# JUPYTER NOTEBOOK
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Jupyter Notebook metadata
+.jupyter/
+
+# PYTHON
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# CACHE E TEMPORÁRIOS
+# DuckDB temp files
+.tmp/
+*.tmp
+tmp/
+
+# DADOS SENSÍVEIS
+# Credenciais
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# ARQUIVOS GRANDES DE DADOS (PARQUET LOCAL)
+*.parquet
+data/raw/
+data/processed/
+data/external/
+
+# MODELOS E ARTEFATOS DE ML (se aplicável)
+models/
+*.pkl
+*.joblib
+*.h5

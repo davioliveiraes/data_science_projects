@@ -1,0 +1,5 @@
+duckdb
+geopandas
+pandas
+pyarrow 
+watermark
