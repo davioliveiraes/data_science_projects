@@ -1,0 +1,3 @@
+workflow_automate_pipeline_airflow/.env
+.env
+*.env
